@@ -74,21 +74,21 @@ class CreatePost extends React.Component {
                     <button 
                         className="post-tab first-tab"
                         onClick={this.onClickImage}
-                        style={this.state.selected === "Image" ? {backgroundColor: "#e6e6e6"} : null }
+                        style={this.state.selectedTab === "Image" ? {backgroundColor: "#e6e6e6"} : null }
                     >
                         Image Post
                     </button>
                     <button 
                         className="post-tab second-tab"
                         onClick={this.onClickLink}
-                        style={this.state.selected === "Link" ? {backgroundColor: "#e6e6e6"} : null }
+                        style={this.state.selectedTab === "Link" ? {backgroundColor: "#e6e6e6"} : null }
                     >
                         Link Post
                     </button>
                     <button 
                         className="post-tab third-tab"
                         onClick={this.onClickText}
-                        style={this.state.selected === "Text" ? {backgroundColor: "#e6e6e6"} : null }
+                        style={this.state.selectedTab === "Text" ? {backgroundColor: "#e6e6e6"} : null }
                     >
                         Text Post
                     </button>
