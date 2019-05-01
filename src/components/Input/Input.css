@@ -1,0 +1,10 @@
+.primary-input {
+    height: 35px;
+    border-radius: 8px;
+    border: 2px solid #a1a1a1;
+    display: block;
+    margin: 16px auto;
+    padding-left: 16px;
+    font-size: 18px;
+    color: #a1a1a1;
+}

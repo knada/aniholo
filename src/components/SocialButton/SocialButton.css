@@ -1,0 +1,22 @@
+.social-button {
+    width: 75px;
+    height: 75px;
+    border-radius: 8px;
+    background-color: #f3f3f3;
+    border: none;
+    margin: 16px;
+    cursor: pointer;
+}
+.twitter-button {
+    background-color: "#1da1f2";  
+}
+.google-button {
+    background-color: "#f3f3f3"
+}
+.reddit-button {
+    background-color: "#ff4500"
+}
+
+.social-icon {
+    height: 37.5px;
+}
