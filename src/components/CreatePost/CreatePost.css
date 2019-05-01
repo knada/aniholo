@@ -71,7 +71,6 @@
     display: flex;
 }
 .modifiers, .spoilers {
-    border: 1px solid yellowgreen;
     margin-right: 16px;
 }
 .modifier-post-button {
